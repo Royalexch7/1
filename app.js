@@ -1,4 +1,4 @@
-var num = 500;
+var num = 10000;
 
 $("#card").wScratchPad({
   size: 100, // The size of the brush/scratch.
