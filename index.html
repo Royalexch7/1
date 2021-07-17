@@ -3,9 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv='cache-control' content='no-cache'>
-    <meta http-equiv='expires' content='0'>
-    <meta http-equiv='pragma' content='no-cache'>
     <title>Scratch Card</title>
     <link rel="stylesheet" href="style.css" />
     <script
@@ -13,7 +10,14 @@
       integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
       crossorigin="anonymous"
     ></script>
-    <script src="./app.js" defer></script>
+    <script type="text/javascript" language="javascript">  
+      var versionUpdate = (new Date()).getTime();  
+      var script = document.createElement("script");  
+      script.type = "text/javascript";  
+      script.src = "./app.js?v=" + versionUpdate;  
+      document.body.appendChild(script);  
+    </script> 
+    <!--<script src="./app.js" defer></script>-->
     <script src="./wScratchpad.min.js"></script>
   </head>
   <body>
