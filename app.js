@@ -1,4 +1,4 @@
-var num = BETTER LUCK NEXT TIME;
+var num = BETTERLUCKNEXTTIME;
 
 $("#card").wScratchPad({
   size: 100, // The size of the brush/scratch.
